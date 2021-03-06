@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: d14036c14ce06d34a9d3b1cfd7a1c3e1
+guid: d186f2272c4147949b0159d465b02f3b
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: barrack_low_back
-    second: {fileID: 2100000, guid: 2d66c8210daa49841bfcfaf7b45ff190, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: barrack_low_front
-    second: {fileID: 2100000, guid: bcf175be92bac29449d7b5411811d21d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: barrack_low_left
-    second: {fileID: 2100000, guid: eff163e6ce00d1945a09ab1d6ae966dd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: barrack_low_right
-    second: {fileID: 2100000, guid: 65fff9dfa6428824fb2f4e89bee753df, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: barrack_low_top
-    second: {fileID: 2100000, guid: cefed2f8fbccefb45a13adcadd80a181, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0

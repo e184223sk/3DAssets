@@ -3,7 +3,57 @@ guid: 443d57f989f04b84a9209ac17008bf27
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrack_base
+    second: {fileID: 2100000, guid: fb5a19546dfbb73459cfc7f68d87a958, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrack_door
+    second: {fileID: 2100000, guid: bf0cf849f1368d94fa598671c6685b32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrack_door_frame
+    second: {fileID: 2100000, guid: 1394850a8df9a3841b53e9cbcd008c72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrack_frame
+    second: {fileID: 2100000, guid: b3db3ec14bb09a54dbd6d2873055fd78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrack_wall
+    second: {fileID: 2100000, guid: 62122e80f04788a4eaafc738428c1c14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrack_wall_rock
+    second: {fileID: 2100000, guid: 23f2aaa16f7cd0b45aa600636c0581a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrack_window_frame
+    second: {fileID: 2100000, guid: 1e0d6caad25a1b14d8d10ac876ef3f50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrack_wood
+    second: {fileID: 2100000, guid: d90803801482c3646a1eea3f6af5235f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_glass
+    second: {fileID: 2100000, guid: 87d982a250d9be744aaee98e8ffeb9e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_stair
+    second: {fileID: 2100000, guid: 4ed836e58968b9541bfecc6f59b2a090, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
