@@ -3,7 +3,27 @@ guid: 7a02421f96d143b488e337150cc349f8
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BerbedWireFence_back
+    second: {fileID: 2100000, guid: 205730fab0221484189afdefa23ee931, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barbedWireFence_front
+    second: {fileID: 2100000, guid: 673609dfd6b83cf48a33b3bc8b1759ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 3f645a7a944abca49974fe12ae7c326c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pillar
+    second: {fileID: 2100000, guid: 3aef84c8cba2f744ab1c733092287d92, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

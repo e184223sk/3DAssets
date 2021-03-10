@@ -3,7 +3,32 @@ guid: 84c24dc827b319843bd83407c4ac35d2
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tent_low_back
+    second: {fileID: 2100000, guid: 6e297207770d47146a2c702a2427a330, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tent_low_front
+    second: {fileID: 2100000, guid: 4e225fb770c03864fa124dbca5e177dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tent_low_left
+    second: {fileID: 2100000, guid: 0128431e8416a474da6dd86479fa39b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tent_low_right
+    second: {fileID: 2100000, guid: 86be74df1a6127c4e9c495d29d258f33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tent_low_top
+    second: {fileID: 2100000, guid: ebce91351f4d1324aa9e0bb933b87e0b, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

@@ -3,7 +3,27 @@ guid: 217123ad3b915ed499ba109fe8254ccc
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Peg_shader
+    second: {fileID: 2100000, guid: ce5043cd5e741b543a3d1c0049a701a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope_shader
+    second: {fileID: 2100000, guid: 63fcedb526b041540b68e6f659eb52f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tent_roof_shader
+    second: {fileID: 2100000, guid: 4f26cdf35c48ea3449516b887e8b2a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tent_wall_shader
+    second: {fileID: 2100000, guid: 26ab505a93fda2443972f64af3ce2874, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
