@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1167282751413505106}
   - component: {fileID: 7028533463746421896}
   m_Layer: 0
-  m_Name: Tree_002
+  m_Name: Tree_002_ikeda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83,7 +83,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
