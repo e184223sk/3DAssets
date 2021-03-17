@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6098462150008116291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8592820600152433713}
+  m_Layer: 0
+  m_Name: GasSylinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8592820600152433713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6098462150008116291}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0151157975, y: -3.2915456, z: -0.014411509}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4530269907511445817}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8909374283521008163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8592820600152433713}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0151157975
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2784543
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.014411509
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 22dce4d1d4610ac40ba3e63bf41c34e3, type: 2}
+    - target: {fileID: -1504981713932161579, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba510bef7bb59f64ba7842316aadfe31, type: 2}
+    - target: {fileID: -1504981713932161579, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: a0505af809743a5498e7695928f88a55, type: 2}
+    - target: {fileID: -927199367670048503, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+        type: 3}
+      propertyPath: m_Name
+      value: GasSylinder
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd, type: 3}
+--- !u!4 &4530269907511445817 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: e0d00bdc9b1c1154f9c2be82cf2e62bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 8909374283521008163}
+  m_PrefabAsset: {fileID: 0}
