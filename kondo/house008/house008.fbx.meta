@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: eae6a20e553323a4ead4e8a262f73f09
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Out
+    second: {fileID: 2100000, guid: 5ca4e01c9b3631b4a83766379f10ca5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shutter
+    second: {fileID: 2100000, guid: 701ef952d626f184f85c8826c55b51d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door
+    second: {fileID: 2100000, guid: edcfe73043459884d8ad39cfa7dd7fa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_edge
+    second: {fileID: 2100000, guid: cb05c8ead99a43d40b4725edfc41244b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_glass_edge
+    second: {fileID: 2100000, guid: b046e6a9a4b4f3049bbda6d55d9ce9c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_nob1
+    second: {fileID: 2100000, guid: 4f5c04f764ae3d645b2dce80b0851ac4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: en
+    second: {fileID: 2100000, guid: fc70ce0b52828eb46a040231c0a89d31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: en1
+    second: {fileID: 2100000, guid: e6eb44dfae1f35148b457f0feff8249b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: en2
+    second: {fileID: 2100000, guid: cb6c09e1ad5bdb145a0485dd80006aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fan1
+    second: {fileID: 2100000, guid: c53dd201f9a071841b589e6527c5fcd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 2c9d72d43a280a3478b6c74a32367d7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kaidan
+    second: {fileID: 2100000, guid: 2b11588203ae076498fdc928de1b01fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mon
+    second: {fileID: 2100000, guid: 7830ac1e71e0ca34099a0bad3fb55dd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mon2
+    second: {fileID: 2100000, guid: 6c8e2d4d95befc841a568d38d8bda27e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipe
+    second: {fileID: 2100000, guid: 2a75c19f67e05724387cb665d90ceb66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2100000, guid: eef69eb8a7c7a9d45881ae8a8d142a76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof2
+    second: {fileID: 2100000, guid: ea16bf8f7c077bd428ab1014632ac8a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_under
+    second: {fileID: 2100000, guid: 52c280aa029671d4a92a0082b1cea6f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saku_over
+    second: {fileID: 2100000, guid: 2b8fb9bf43002d54c999ab79907893df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saku_p
+    second: {fileID: 2100000, guid: 3daff9807a4cbc4409eb5dd61ad587a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saku_under
+    second: {fileID: 2100000, guid: 855ccc2198390f842bfedaf9b4f5409a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stick
+    second: {fileID: 2100000, guid: bbb5df7508c75fa45ba342b44100127e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: test
+    second: {fileID: 2100000, guid: 260a90f1b09fd5d4d8201fff165d37c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall
+    second: {fileID: 2100000, guid: 444f2901d48d3a34b81617048ea1f8cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall2
+    second: {fileID: 2100000, guid: 3d52eccc5f138b041bf8015d32b76ede, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_door
+    second: {fileID: 2100000, guid: 13545be29aeeb5e4990c14af5bff1c18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_edge
+    second: {fileID: 2100000, guid: c16d08133f36b904c837973af11835f2, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
