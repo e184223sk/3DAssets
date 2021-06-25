@@ -440,37 +440,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6261164758968269113
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7368451616101487051}
-  m_Layer: 0
-  m_Name: High
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &7368451616101487051
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6261164758968269113}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2181504821984478539}
-  m_Father: {fileID: 7222086534793868998}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6293420802367965759
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,37 +572,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6874775220894633734
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1851220146470663191}
-  m_Layer: 0
-  m_Name: Low
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &1851220146470663191
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6874775220894633734}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2396114832915455858}
-  m_Father: {fileID: 7222086534793868998}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7222086534793868993
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,9 +600,9 @@ Transform:
   m_LocalPosition: {x: -6.760911, y: 7.3, z: -168.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7368451616101487051}
-  - {fileID: 4445480242426082638}
-  - {fileID: 1851220146470663191}
+  - {fileID: 2181504821984478539}
+  - {fileID: 2396114832616065344}
+  - {fileID: 2396114832915455858}
   - {fileID: 4598520528227106671}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -769,43 +707,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &8499247885821705693
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4445480242426082638}
-  m_Layer: 0
-  m_Name: Mid
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &4445480242426082638
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8499247885821705693}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2396114832616065344}
-  m_Father: {fileID: 7222086534793868998}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6574402086085488209
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 7368451616101487051}
+    m_TransformParent: {fileID: 7222086534793868998}
     m_Modifications:
     - target: {fileID: -4216859302048453862, guid: d186f2272c4147949b0159d465b02f3b,
         type: 3}
@@ -1010,7 +917,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: d186f2272c4147949b0159d465b02f3b,
         type: 3}
       propertyPath: m_Name
-      value: high
+      value: High
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: d186f2272c4147949b0159d465b02f3b,
         type: 3}
@@ -1030,7 +937,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 4445480242426082638}
+    m_TransformParent: {fileID: 7222086534793868998}
     m_Modifications:
     - target: {fileID: -4216859302048453862, guid: fcfb929ebc9ff2a49b7502dcdb923cc0,
         type: 3}
@@ -1070,7 +977,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: fcfb929ebc9ff2a49b7502dcdb923cc0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: fcfb929ebc9ff2a49b7502dcdb923cc0,
         type: 3}
@@ -1210,12 +1117,17 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fcfb929ebc9ff2a49b7502dcdb923cc0,
         type: 3}
       propertyPath: m_Name
-      value: Apartment_Axion_middle
+      value: Mid
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: fcfb929ebc9ff2a49b7502dcdb923cc0,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fcfb929ebc9ff2a49b7502dcdb923cc0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcfb929ebc9ff2a49b7502dcdb923cc0, type: 3}
@@ -1230,7 +1142,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1851220146470663191}
+    m_TransformParent: {fileID: 7222086534793868998}
     m_Modifications:
     - target: {fileID: -4216859302048453862, guid: f0414518caa03f34e915193241075552,
         type: 3}
@@ -1270,7 +1182,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f0414518caa03f34e915193241075552,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f0414518caa03f34e915193241075552,
         type: 3}
@@ -1290,12 +1202,17 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f0414518caa03f34e915193241075552,
         type: 3}
       propertyPath: m_Name
-      value: Apartment_Axion_low
+      value: Low
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: f0414518caa03f34e915193241075552,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f0414518caa03f34e915193241075552,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0414518caa03f34e915193241075552, type: 3}
