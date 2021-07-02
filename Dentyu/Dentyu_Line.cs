@@ -10,21 +10,24 @@ public class Dentyu_Line : MonoBehaviour
     uint CurvePolyCount;
     Vector3 getV(Vector3 a, Vector3 b, float v = 0.5f) => Vector3.Lerp(a, b, v) - Vector3.up * Dripping * Mathf.Abs((0.5f - v) * 2);
 
+    void Start ()=> OnValidate();
+
     /// <summary>
     /// 処理軽減の為, 不要な子オブジェクトを破棄してこのコードも消す
     /// </summary>
-    void Start()
+    void Update()
     { 
         linerPoint me = new linerPoint(transform);
-        Destroy(me.T0);
-        Destroy(me.T1);
-        Destroy(me.T2);
-        Destroy(me.T3);
-        Destroy(me.B0);
-        Destroy(me.B1);
-        Destroy(me.B2);
-        Destroy(me.DD);
-        if (transform.Find("Liner").GetComponent<LineRenderer>().positionCount <= 0) Destroy(transform.Find("Liner")); //自身のLineRenderから線が出てないなら破棄する
+        DestroyImmediate(me.T0.gameObject);
+        DestroyImmediate(me.T1.gameObject);
+        DestroyImmediate(me.T2.gameObject);
+        DestroyImmediate(me.T3.gameObject);
+        DestroyImmediate(me.B0.gameObject);
+        DestroyImmediate(me.B1.gameObject);
+        DestroyImmediate(me.B2.gameObject);
+        DestroyImmediate(me.DD.gameObject);
+        if (transform.Find("Liner").GetComponent<LineRenderer>().positionCount <= 0)
+            Destroy(transform.Find("Liner").gameObject); //自身のLineRenderから線が出てないなら破棄する
         Destroy(this);
     }
 
