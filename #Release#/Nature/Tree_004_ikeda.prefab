@@ -13,11 +13,11 @@ GameObject:
   - component: {fileID: 8437375644505706568}
   - component: {fileID: 5751028124426424760}
   m_Layer: 0
-  m_Name: Tree_004
+  m_Name: Tree_004_ikeda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5913074577955616715
 Transform:

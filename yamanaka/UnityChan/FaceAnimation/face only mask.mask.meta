@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: b04fa088dc5170247b4c4a2def707682
+=======
+guid: e013e36ee16fbac4d90fcc3f2803dc0f
+>>>>>>> ecd9abd37b08b2065744e9600bcb0ddb497bd952
 labels:
 - UnityChan
 NativeFormatImporter:
